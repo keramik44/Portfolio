@@ -1,0 +1,133 @@
+$primary-color: #02889a;
+$secondary-color:#E4E0C3;
+$third-color:#2A4143;
+
+
+*, *:before, *:after {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.group:after {
+  content: "";
+  display: table  ;
+  clear: both;
+}
+.positioner{
+  max-width: 970px;
+  margin: 0px auto;
+}
+
+body{
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  width: 100%;
+  margin: 0px;
+  padding:0px;
+  color:#333;
+}
+h1, h2, h3{
+   font-family: 'Ubuntu', sans-serif;
+   text-align: center;
+}
+article{
+  padding:15px 20px 15px 20px;
+  text-align: justify;
+}
+p{
+  text-indent: 40px;
+}
+input::-moz-focus-inner {
+  border: 0;
+}
+input,
+a{
+  outline: 0;
+  text-decoration: none;
+}
+a:hover{
+  color: $primary-color;
+}
+.project-wrap{
+  display: block;
+  position: relative;;
+  width: 220px;
+  height: 230px;
+  padding:6px 8px 0px 8px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 2px solid grey;
+  background-color: white;
+  .project{
+    height: 190px;
+  }
+  h2{font-size: 1.7em; margin-bottom: 1.5em; }
+  h3{margin:0px;}
+}
+.skill-wrap{
+  display: block;
+  position: relative;;
+  width: 200px;
+  height: 160px;
+  padding: 130px 10px 0px 10px;
+}
+.lvl{
+  height:26px;
+  width: 180px;
+  border: 2px solid #030303;
+  border-radius: 16px;
+}
+.lvl >p{
+  font-size: 1em;
+  color: black;
+  position: absolute;;
+  top:130px;
+  left:40px;
+  margin: 0px;
+}
+.progression{
+  height: 100%;
+  border-radius: 24px;
+  background-color: #81BE6A;
+}
+.htmlcss{
+  background:  url("../img/htmlcss.png") no-repeat top;
+  .progression{
+    width: 60%;
+  }
+}
+.js{
+  background:  url("../img/js.png") no-repeat top;
+  .progression{
+    width: 40%;
+  }
+}
+.php{
+  background:  url("../img/php.png") no-repeat top;
+  .progression{
+    width: 40%;
+  }
+}
+.jquery{
+  background:  url("../img/jQuery.png") no-repeat center center;
+  .progression{
+    width: 20%;
+  }
+}
+.bs{
+  background:  url("../img/bs.png") no-repeat center center;
+  .progression{
+    width: 20%;
+  }
+}
+.mysql{
+  background:  url("../img/mysql.png") no-repeat center center;
+  .progression{
+    width: 20%;
+  }
+}
