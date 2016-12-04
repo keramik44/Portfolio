@@ -1,0 +1,63 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: grey;
+  margin: 0;
+  width: 100%; }
+
+.calc {
+  margin: 20px auto;
+  width: 400px;
+  height: 431px;
+  padding: 0px;
+  background: url("../img/calc/calc.jpg") no-repeat center 0px; }
+
+#screen {
+  height: 144px;
+  width: 100%;
+  overflow: auto; }
+
+.screenPart {
+  height: 144px;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  font-size: 1.4em; }
+
+#buttons {
+  height: 287px;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.butt {
+  display: table;
+  width: 16.66667%;
+  height: 71.5px;
+  font-size: 1.7em;
+  padding-top: 15px; }
+  .butt p {
+    margin: 0px;
+    display: table-cell;
+    text-align: center; }
+
+.butt:hover {
+  background-color: white;
+  opacity: 0.13;
+  cursor: pointer; }
+
+#equal {
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+  height: 143px;
+  padding-top: 50px; }
+
+#pi {
+  font-family: arial; }

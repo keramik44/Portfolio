@@ -1,0 +1,126 @@
+.button-wrap {
+  width: 160px;
+  margin: 10px auto 0;
+  cursor: pointer;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center; }
+
+.button-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border-radius: 40px;
+  padding: 3px;
+  color: #fff;
+  transition: all 0.2s ease; }
+
+.button-switch {
+  position: relative;
+  left: 0px;
+  width: 74px;
+  height: 74px;
+  border: solid 22px;
+  border-radius: 36px;
+  transition: all 0.2s ease; }
+
+.button-active .button-switch {
+  left: 80px; }
+
+.button-on,
+.button-off {
+  position: absolute;
+  transition: all 0.2s ease;
+  padding-top: 15px;
+  font-size: 2.4em;
+  font-weight: bold; }
+
+.button-on {
+  margin-left: 110px; }
+
+.button-off {
+  margin-left: 30px;
+  color: #dd2222; }
+
+.button-active .button-off {
+  color: #fff; }
+
+.button-active .button-on {
+  color: #3D9970; }
+
+.button-active .button-bg {
+  background-color: #000; }
+
+.button-wrap {
+  padding-bottom: 40px; }
+
+.three .button-wrap {
+  width: 100px;
+  margin: 40px auto 0;
+  cursor: pointer; }
+
+.three .button-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  border-radius: 40px;
+  padding: 3px;
+  color: #fff;
+  transition: all 0.2s ease; }
+
+.three .button-switch {
+  position: relative;
+  left: 0px;
+  width: 44px;
+  height: 44px;
+  border: solid 13px;
+  background-color: #fff;
+  border-radius: 36px;
+  transition: all 0.2s ease; }
+
+.three .button-active .button-switch {
+  left: 50px; }
+
+.three .button-in,
+.three .button-out {
+  position: absolute;
+  transition: all 0.2s ease;
+  padding-top: 15px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px; }
+
+.three .button-in {
+  margin-left: 76px; }
+
+.three .button-out {
+  margin-left: 18px; }
+
+.three .button-active .button-bg {
+  background-color: #3D9970; }
+
+.button-wrap2 {
+  width: 150px; }
+
+.green-sea-flat-button {
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #16a085;
+  border: 0;
+  border-bottom: 2px solid #14947b;
+  cursor: pointer;
+  box-shadow: inset 0 -2px #14947b; }
+
+.green-sea-flat-button:active {
+  top: 1px;
+  outline: none;
+  box-shadow: none; }

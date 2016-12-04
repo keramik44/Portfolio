@@ -1,0 +1,72 @@
+@import "buttons.scss";
+
+*, *:before, *:after {box-sizing: border-box; }
+
+body{
+  width: 100%;
+  margin: 0;
+  font-family: 'Shadows Into Light', cursive;
+  color:#001f3f;
+  background-color:#39CCCC;
+  display:flex;
+}
+.main {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px ;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.title{
+  font-size:2.5em;
+  h1{
+    margin: 10px auto;
+  }
+}
+.board{
+  margin: 20px auto;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.screen{
+  font-size: 30px;
+}
+.field{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 130px;
+}
+.pointer:hover{
+  cursor: pointer;
+}
+.blocked:hover{
+  cursor: not-allowed;
+}
+.row1,
+.row2{
+  border-bottom: solid 4px #001f3f;
+}
+.row1,
+.row2,
+.row3{
+  border-right: solid 4px #001f3f;
+}
+.row1:nth-child(3),
+.row2:nth-child(6),
+.row3:last-child{
+  border-right: none;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 120px;
+}

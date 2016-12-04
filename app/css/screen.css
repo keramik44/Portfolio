@@ -271,10 +271,10 @@ ul {
 .element {
   display: -ms-flexbox;
   display: flex;
-  width: 66%; }
+  width: 50%; }
 
 .coffee {
-  width: 34%; }
+  width: 50%; }
 
 .skills-section {
   padding: 15px; }
